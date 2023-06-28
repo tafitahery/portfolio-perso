@@ -2,8 +2,8 @@ import './navbar.scss';
 
 export default function Navbar() {
   return (
-    <div>
-      <div className="navbar">
+    <div className="navbar">
+      <div className="wrapper">
         <span className="logo">.lebo</span>
         <ul className="list">
           <li className="listItem">
