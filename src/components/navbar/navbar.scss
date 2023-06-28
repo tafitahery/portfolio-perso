@@ -1,0 +1,31 @@
+.navbar {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+  .logo {
+    flex: 1;
+    font-weight: 900;
+    font-size: 24px;
+    color: orangered;
+  }
+
+  .list {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    .listItem a {
+      color: #555;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 18px;
+
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}
