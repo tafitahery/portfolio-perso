@@ -10,7 +10,7 @@ export default function Navbar() {
             <a href="#home">Home</a>
           </li>
           <li className="listItem">
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">About</a>
           </li>
           <li className="listItem">
             <a href="#works">Works</a>
