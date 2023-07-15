@@ -2,11 +2,11 @@
   height: 100vh;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
+  background-color: #fefffe;
 
   .wrapper {
-    height: calc(100% - 75px);
     max-width: 1280px;
     width: 100%;
     background-color: white;
@@ -19,7 +19,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
-      margin-top: 50px;
+      gap: 20px;
       width: 80%;
       align-self: center;
       flex: 1;
@@ -32,10 +32,57 @@
       p {
         font-size: 22px;
         text-align: center;
+        color: #8d818c;
       }
     }
     .content {
       flex: 2;
+      display: flex;
+      gap: 50px;
+
+      .left,
+      .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        a {
+          background-color: teal;
+          color: white;
+          text-decoration: none;
+          font-size: 24px;
+          padding: 10px 50px;
+          border-radius: 5px;
+          align-self: flex-start;
+          transition: transform 0.2s;
+
+          &:hover {
+            transform: scale(1.02);
+          }
+        }
+
+        h2 {
+        }
+
+        p {
+          text-align: justify;
+          color: #555;
+        }
+
+        .skills {
+          display: flex;
+          gap: 20px;
+          flex-wrap: wrap;
+          color: #555;
+
+          span {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 5px;
+          }
+        }
+      }
     }
   }
 }
